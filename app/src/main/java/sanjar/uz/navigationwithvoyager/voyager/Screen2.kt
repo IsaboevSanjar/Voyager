@@ -14,7 +14,7 @@ import androidx.compose.ui.unit.dp
 import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.navigator.LocalNavigator
 
-class Screen1 : Screen {
+class Screen2 : Screen {
 
     @Composable
     override fun Content() {
@@ -24,10 +24,10 @@ class Screen1 : Screen {
             horizontalAlignment = Alignment.CenterHorizontally,
             modifier = Modifier.fillMaxSize()
         ) {
-            Text(text = "First Screen")
+            Text(text = "2 Screen")
             Spacer(modifier = Modifier.height(50.dp))
             Button(onClick = { /*TODO*/ }) {
-                Text(text = "Go to Screen 2")
+                Text(text = "Go to Screen 3")
             }
         }
     }
