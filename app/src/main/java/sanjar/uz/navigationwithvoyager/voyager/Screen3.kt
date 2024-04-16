@@ -26,7 +26,9 @@ class Screen3 : Screen {
         ) {
             Text(text = "3 Screen")
             Spacer(modifier = Modifier.height(50.dp))
-            Button(onClick = { /*TODO*/ }) {
+            Button(onClick = {
+                navigator?.pop()
+            }) {
                 Text(text = "Go Back")
             }
         }

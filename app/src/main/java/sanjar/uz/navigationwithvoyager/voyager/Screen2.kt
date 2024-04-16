@@ -26,7 +26,7 @@ class Screen2 : Screen {
         ) {
             Text(text = "2 Screen")
             Spacer(modifier = Modifier.height(50.dp))
-            Button(onClick = { /*TODO*/ }) {
+            Button(onClick = { navigator?.push(Screen3()) }) {
                 Text(text = "Go to Screen 3")
             }
         }
